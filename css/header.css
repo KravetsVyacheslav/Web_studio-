@@ -1,0 +1,101 @@
+.header_list {
+    color: #C7C7C7;
+    line-height: normal;
+    list-style: none; 
+
+    gap: 29px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_items a .header_language_a {
+    color: #C7C7C7;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.header {
+    background: #012D63;
+    padding: 16px 0 17px 0;
+    height: 93px;
+}
+
+.header_language {
+    display: flex;
+    width: 81px;
+    justify-content: space-between;
+}
+ 
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_menu {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+.header_nike_icon {
+    display: flex;
+}
+
+.header_link {
+    color: #C7C7C7;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.header_link:hover {
+    color: #FFF;
+    font-weight: 400;
+}
+
+.header_language_link {
+    color: #DCDCDC;
+}
+
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hamburger span { 
+    display: block; 
+    width: 24px; 
+    margin-bottom: 5px; 
+    border: 2px solid #111238; 
+    border-radius: 10px; 
+    transition: 0.5s linear; 
+ 
+}
+
+.hamburger { 
+    display: none; 
+    position: absolute; 
+    right: 10px;
+    top: 50%; 
+    transform: translateY(-50%); 
+    height: 20px; 
+}
+
+.hamburger_active span:nth-child(1) {
+    transform: translateY(5px) rotate(-45deg);
+}
+
+.hamburger_active span:nth-child(2) {
+    display: none;
+}
+
+.hamburger_active span:nth-child(3) {
+    transform: translateY(-3px) rotate(45deg);
+}

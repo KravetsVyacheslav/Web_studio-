@@ -1,0 +1,77 @@
+.main {
+    background-image: url(../src/img/background_body.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 94px 0 183px 0;
+    height: 858px;
+}
+
+.main_wrapper_title {
+    color: #FFF;
+    font-family: Playfair Display;
+    font-size: 144px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+.main_wrapper_subtitle {
+    color: #FFF;
+    font-family: Playfair Display;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    margin-top: -40px;
+}
+
+.main_wrapper_descr {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.main_btn {
+    width: 254px;
+    height: 67px;
+    flex-shrink: 0;
+
+    border-radius: 10px;
+    background: #8E32C6;
+    border: none;
+
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 40px;
+}
+
+.main_text {
+    color: #FFF;
+    font-family: PT Serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+
+    position: absolute;
+    bottom: -21px;
+    left: 20px;
+}
+
+.main_logo {
+    position: relative;
+}
+#main {
+    scroll-behavior: smooth;
+}

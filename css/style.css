@@ -1,0 +1,31 @@
+@import url(./header.css);
+@import url(./variable.css);
+@import url(./main.css);
+@import url(./information.css);
+@import url(./reviews.css);
+@import url(./order.css);
+@import url(./footer.css);
+@import url(./media.css);
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+
+span {
+    color: #2196f3;
+  }
+
+li {
+    text-decoration: none;
+    list-style: none;
+  }
+
+a {
+    text-decoration: none;
+}
